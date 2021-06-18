@@ -1,2 +1,2 @@
 # FullStackApi-tanfolyam-anyagok
-Itt találhatóak a FullStac API konzultációk és egyéb leckék anyagai.
+Itt találhatóak a FullStack API konzultációk és egyéb leckék anyagai.
