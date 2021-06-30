@@ -16,6 +16,16 @@ module.exports = class MovieService {
             await this.init();
         }
         
-        return await this.movies;
+        return this.movies;
+    }
+
+    async getMovie(id) {
+        if (!this.movies) {
+            await this.init();
+        }
+
+        return this.movies.filter(
+            movie => movie.id === id
+        )[0];
     }
 }
